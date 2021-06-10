@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"> </script>
+	</head>
+	<body>
+		<header>
+		<h1 class="header"> <a href="https://ee491f.github.io/course-material/#html-exercises"> EE491 </a></h1>
+		<h2 class="header"> By Beemnet Alemayehu </h2>
+		<h3 class="header"> Sample Website</h3>
+		<h4 class="header"> HTML Exercises</h4>
+		</header>
+		<h5> Front-end tutorial</h5>
+		<h6> Next steps: backend </h6>
+		<p id="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>
+		It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <span style="color:blue">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p>
+		<div>	<img src="plato and aristotle.jpg" width="200" height="300" alt="A painting of Plato and Aristotle by Rafael(not sure)">
+	
+	<table>
+		<tr> <th> Similarity 	</th> <th> Differences 	</th>	</tr>
+		<tr> <td> Greek 	</td> <td> Forms	</td>	</tr>
+		<tr> <td> Philosophers	</td> <td> Good		</td>   </tr>
+		<tr> <td> Powerful	</td> <td> Politics	</td>	</tr>
+	</table>
+	<ul class="books">
+		<li>Ethics</li>
+		<li>metaphysics</li>
+		<li>Politics</li>
+		<li personal="Favorite">Republic</li>
+		<li>Phaedo</li>
+		<li>Apology</li>
+		<li>The Symposium</li>
+
+	</ul>
+		</div>
+	<hr>
+	<ol class="athletes">
+		<nav>
+		<li id="champion" class="boxer"><a href="https://en.wikipedia.org/wiki/Mike_Tyson" target="_blank"> Mike Tyson </a></li>
+	 	<li id="champion2" class="boxer"><a href="https://en.wikipedia.org/wiki/Muhammad_Ali" target="_blank">Muhammed Ali </a></li>
+	 	<li class="boxer"><a href="https://en.wikipedia.org/wiki/George_Foreman"target="_blank">George Foreman </a></li>
+	 	<li class="boxer"><a href="https://en.wikipedia.org/wiki/Joe_Frazier"target="_blank"> Joe Frazier</a></li>
+	 	<li class="boxer"><a href="https://en.wikipedia.org/wiki/Evander_Holyfield"target="_blank">Evander Holyfield </a></li>
+		</nav>
+	</ol>
+	
+
+	<footer>
+author:Beemnet Alemayehu
+	</footer>
+
+					<script> $( "#champion").mouseout(function() {
+						$("#champion a").css( "color", "red");
+											}
+											);
+				
+					$(".athletes a").mouseout(function() {
+																		$(".athletes a").css( "color", "green");
+											});
+					</script>
+
+	</body>
+
+
+</html>
